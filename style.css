@@ -1,0 +1,188 @@
+.start {
+  display: flex;
+  gap: 20px;
+  background-color: green;
+  color: white;
+}
+
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav li {
+  margin-left: 20px;
+}
+
+.nav a {
+  color: black;
+  text-decoration: none;
+  text-decoration-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.special {
+  width: 70%;
+  height: 350px;
+}
+
+.div1 {
+
+  background-image: url(https://tinyurl.com/zukhazbx);
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+
+.div2 {
+  display: grid;
+  grid-template-rows: table-row;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+}
+
+.alovera {
+  width: 90%;
+}
+
+.euphobian {
+  width: 80%;
+  height: 210px;
+}
+
+.grow_orchids {
+  width: 70%;
+}
+
+.springs {
+  display: grid;
+  grid-template-rows: table-row;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+  display: grid;
+  grid-template-rows: table-row;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 40px;
+  margin: 0 auto;
+}
+
+.classification {
+  display: grid;
+  grid-template-rows: table-row;
+  grid-template-columns: repeat(3, 1fr);
+}
+.all {
+  display: grid;
+  grid-template-rows: table-row;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 100px;
+}
+.align {
+  display: flex;
+  justify-content: center;
+
+  padding: 40px;
+}
+
+.img1 {
+  width: 90%;
+  height: 150px;
+}
+.img {
+  width: 90%;
+  height: 150px;
+}
+.img2 {
+  width: 90%;
+  height: 150px;
+}
+
+.img3 {
+  width: 90%;
+  height: 150px;
+}
+.img4 {
+  width: 90%;
+  height: 150px;
+}
+.img5 {
+  width: 90%;
+  height: 150px;
+}
+.img6 {
+  width: 100%;
+  height: 500px;
+}
+.return {
+  display: flex;
+  align-items: center;
+}
+.bottle {
+  display: grid;
+  grid-template-rows: table-row;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+}
+.living {
+  align-items: center;
+}
+@media screen and (min-width: 216px) and (max-width: 774px) {
+  .start {
+    flex-wrap: wrap;
+  }
+  .nav ul {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .card {
+    display: grid;
+    grid-template-rows: table-row;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 40px;
+    margin: 0 auto;
+  }
+  .align {
+    flex-direction: column;
+  }
+  .img1 {
+    width: 50%;
+    height: 80px;
+  }
+  .img {
+    width: 50%;
+    height: 80px;
+  }
+  .img2 {
+    width: 50%;
+    height: 80px;
+  }
+
+  .img3 {
+    width: 50%;
+    height: 80px;
+  }
+  .img4 {
+    width: 50%;
+    height: 80px;
+  }
+  .img5 {
+    width: 50%;
+    height: 80px;
+  }
+  .img6 {
+    width: 70%;
+    height: 130px;
+  }
+  .springs {
+    display: grid;
+    grid-template-rows: table-row;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
