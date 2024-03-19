@@ -16,6 +16,10 @@
   color: white;
 }
 
+.nav {
+  margin: 20px;
+}
+
 .nav ul {
   list-style-type: none;
   padding: 0;
@@ -26,7 +30,7 @@
 }
 
 .nav li {
-  margin-left: 20px;
+  /* margin-left: 20px; */
 }
 
 .nav a {
@@ -39,46 +43,81 @@
 }
 
 #dropdown {
-  display: inline-block;
+  /* display: ; */
   position: relative;
-  /* gap: 30px; */
-  /* font-size: 17px; */
-  /* border: none;
-  outline: none; */
-  color: white;
-  /* padding: 14px 16px; */
-  /* background-color: inherit; */
-  /* font-family: inherit; */
-  /* margin: 0; */
+  color: black;
 }
+
+.magic {
+  color: green;
+}
+
 .special {
-  width: 50%;
-  height: 40%;
+  width: 30%;
+  height: 250px;
 }
-.card{
+.card {
   display: flex;
+  /* margin-right: 20%; */
+  gap: 25%;
+  background-color: beige;
+  border-radius: 8px;
+  padding: 60px;
+  margin: 20px;
+  /* white-space: nowrap; */
+}
+
+button {
+  padding: 5px 35px;
+  margin: 20px;
 }
 
 .div1 {
-  background-image: url(https://tinyurl.com/zukhazbx);
-  background-repeat: no-repeat;
-  /* background-size: 90%; */
-
-  /* margin-top: 200px; */
-
+  display: flex;
+  /* gap: 40%;
+  padding: 20px; */
 }
 
 .div2 {
-  /* display: grid;
-  grid-template-rows: table-row;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 15%; */
-  display: flex;
-  gap: 15%;
+  background-image:url("https://i.pinimg.com/236x/27/16/31/271631873ee010ea38d6e8f91e66addc.jpg");
+  /* background-image: url("https://tinyurl.com/zukhazbx"); */
+  background-repeat: no-repeat;
+  background-size: 350%; 
+  background-size: cover;
+  /* gap:;  */
+  padding: 20px 200px;
+  /* margin: 0 auto; */
+  justify-content: center;
+  /* margin-left: 10px; */
+  background-color: beige;
+  /* border-radius: 80px; */
+  /* padding: 100px; */
+  margin: 20px;
+  /* width: 100%; Adjust the width as needed */
 
+  border-radius: 5px;
+}
+.cardo {
+  display: flex;
+  /* gap: 20%; */
+  background-color: beige;
+  border-radius: 5px;
+  /* padding: 60px; */
+  margin: 20px;
+}
+
+h2 {
+  align-items: center;
 }
 .card2 {
   display: flex;
+  /* gap:2%; */
+}
+
+.inspire {
+  margin-left: auto;
+  padding: 5px;
+  margin: 5%;
 }
 
 .alovera {
@@ -97,15 +136,20 @@
 }
 
 .grow_orchids {
-  width: 110%;
-  height: 150px;
+  width: 220%;
+  height: 230px;
 }
+
+/* .grow1 {
+  white-space: nowrap;
+}  */
 
 .springs {
   display: grid;
   grid-template-rows: table-row;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 80px;
+  padding: 20px;
 }
 
 .card {
@@ -164,9 +208,10 @@
   height: 500px;
 }
 .return {
+  justify-content: center;
   align-items: center;
-  padding: 10px 10px;
-  margin: 20%;
+  /* padding: 10px 10px;*/
+  margin: 10%;
 }
 .bottle {
   display: grid;
@@ -175,16 +220,38 @@
   grid-gap: 50px;
 }
 .living {
-  align-items: center;
+  /* align-items: center; */
+  /* background-image: url("https://i.pinimg.com/736x/c2/00/ee/c200ee88860774b5f15155ffa31825a7.jpg"); */
+  background-image: url("https://i.pinimg.com/564x/39/d0/dc/39d0dc1e5560305c862f9fad72810bd8.jpg");
+  /* justify-content: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+.grow {
+  /* padding: 80px;*/
+  margin: 30%;
+}
+
+.shopping {
+  /* padding: 150px; */
+}
+
+.price {
+  display: flex;
+}
+
+/* .leaves {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+} */
 
 .vassel {
   display: grid;
   grid-template-rows: table-row;
   grid-template-columns: repeat(4, 1fr);
-  /* grid-gap: 50px; */
-  width: 5%;
-  /*height: 24px; */
+  /* width: 5%; */
 }
 
 .cactus {
@@ -196,7 +263,6 @@
   display: grid;
   grid-template-rows: table-row;
   grid-template-columns: repeat(2, 1fr);
-  /* grid-gap: 50px; */
   padding: 30px;
 }
 
@@ -209,33 +275,58 @@
 
 .unknown {
   display: flex;
+  justify-content: center;
   gap: 40px;
 }
 
-/* .client {
-
-} */
 .profile {
   width: 40px;
 }
 
 #woman {
   width: 60%;
-  height: 100px;
+  height: 120px;
 }
 #work {
   width: 60%;
-  height: 100px;
+  height: 120px;
 }
 #woman2 {
-  width: 50%;
+  width: 150%;
   height: 120px;
 }
 
+input {
+  padding: 10px 20px;
+  margin: 5%;
+}
+
+.biyon {
+  background-color: white;
+  color: gray;
+}
+
+#subscribe {
+  background-color: green;
+  text-align: center;
+  color: white;
+}
 .footer {
   display: flex;
   justify-content: center;
   gap: 20px 70px;
+}
+
+.copy {
+  justify-content: center;
+  padding: 40px;
+  margin: auto;
+}
+
+.select-arrow {
+   border-top: 12px solid #ff6339;
+  border-left: 12px solid ;
+  border-right: 12px solid; 
 }
 
 @media screen and (min-width: 414px) and (max-width: 774px) {
@@ -246,18 +337,12 @@
     flex-direction: column;
   }
   .card {
-    display: grid;
-    grid-template-rows: table-row;
     grid-template-columns: repeat(1, 1fr);
-    padding: 40px;
-    margin: 0 auto;
   }
   .align {
     flex-direction: column;
   }
   .div2 {
-    display: grid;
-    grid-template-rows: table-row;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 50px;
   }
@@ -295,19 +380,12 @@
     height: 130px;
   }
   .springs {
-    display: grid;
-    grid-template-rows: table-row;
     grid-template-columns: repeat(1, 1fr);
   }
   .vassel {
-    display: grid;
-    grid-template-rows: table-row;
     grid-template-columns: repeat(2, 1fr);
-    /* grid-gap: 50px; */
   }
   .february {
-    display: grid;
-    grid-template-rows: table-row;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 50px;
   }
@@ -326,82 +404,96 @@
     width: 78%;
     height: 250px;
   }
+  .grow_orchids {
+    width: 60%;
+    height: 230px;
+  }
+  .footer {
+    display: flex;
+    justify-content: center;
+    gap: 20px 70px;
+    flex-wrap: wrap;
+  }
   .div1 {
-    background-image: url(https://tinyurl.com/zukhazbx);
-    background-repeat: no-repeat;
-    background-size: 90%;
+    flex-wrap: wrap;
+  }
+  .div2 {
+    /* background-image: url("https://tinyurl.com/zukhazbx"); */
+    /* background-repeat: no-repeat; */
+    /* /background-size: 350%; */
+    background-size: auto;
+    /* gap:;  */
+    padding: 20px 100px;
+    /* margin: 0 auto; */
+    justify-content: center;
+    /* margin-left: 10px; */
+    background-color: #ffffff;
+    border: 1px solid #333;
+    /* border-radius: 80px; */
+    /* padding: 100px; */
+    margin: 20px;
+    /* width: 100%; Adjust the width as needed */
 
-    margin-top: 200px;
+    border-radius: 5px;
+  }
+  .start {
+    display: flex;
+    gap: 20px;
+    background-color: green;
+    color: white;
+  }
 
-    font-weight:;
+  .nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
   }
 }
 
 @media screen and (min-width: 212px) and (max-width: 990px) {
   .vassel {
-    display: grid;
-    grid-template-rows: table-row;
     grid-template-columns: repeat(1, 1fr);
-    /* align-items: center; */
   }
   .february {
-    display: grid;
-    grid-template-rows: table-row;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 50px;
   }
   .springs {
-    display: grid;
-    grid-template-rows: table-row;
     grid-template-columns: repeat(1, 1fr);
   }
 }
 
-@media screen and (min-width: 650px) and (max-width: 2100px) {
+@media screen and (min-width: 540px) and (max-width: 1000px) {
   .vassel {
-    display: grid;
-    grid-template-rows: table-row;
-    grid-template-columns: repeat(4, 1fr);
-    /* align-items: center; */
+    grid-template-columns: repeat(2, 1fr);
   }
   .february {
-    display: grid;
-    grid-template-rows: table-row;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
   }
   .springs {
-    display: grid;
-    grid-template-rows: table-row;
     grid-template-columns: repeat(2, 1fr);
   }
-  .div1 {
-    background-image: url(https://tinyurl.com/zukhazbx);
+  /* .div1 {
+   /** background-image: url(https://tinyurl.com/zukhazbx);
     background-repeat: no-repeat;
     background-size: 60%;
-
     margin-top: 200px;
-
-    font-weight:;
-  }
+  } */
 }
 
 @media screen and (min-width: 540px) and (max-width: 820px) {
   .vassel {
-    display: grid;
-    grid-template-rows: table-row;
     grid-template-columns: repeat(2, 1fr);
-    /* align-items: center; */
   }
   .february {
-    display: grid;
-    grid-template-rows: table-row;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 50px;
   }
   .springs {
-    display: grid;
-    grid-template-rows: table-row;
     grid-template-columns: repeat(1, 1fr);
   }
   .special {
@@ -413,8 +505,46 @@
     height: 150px;
   }
   .trees {
-    display: grid;
-    grid-template-rows: table-row;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 30px;
+  }
+  .footer {
+    display: flex;
+    justify-content: center;
+    gap: 20px 70px;
+    flex-wrap: wrap;
+  }
+  .div1 {
+    flex-wrap: wrap;
+  }
+  .footer {
+    display: flex;
+    justify-content: center;
+    gap: 20px 70px;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 2800px) and (max-width: 653px) {
+  .vassel {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .february {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 50px;
+  }
+  .springs {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .special {
+    width: 90%;
+    height: 200px;
+  }
+  .grow_orchids {
+    width: 80%;
+    height: 150px;
+  }
+  .trees {
     grid-template-columns: repeat(1, 1fr);
     /* grid-gap: 50px; */
     padding: 30px;
@@ -425,16 +555,81 @@
     gap: 20px 70px;
     flex-wrap: wrap;
   }
-  .div1 {
+  /* .div1 {
     background-image: url(https://tinyurl.com/zukhazbx);
     background-repeat: no-repeat;
     background-size: 90%;
-
     margin-top: 200px;
-
-    font-weight:;
+  } */
+  .unknown {
+    flex-wrap: wrap;
   }
 }
+
+/*@media screen and (min-width: 200px) and (max-width: px) {
+  .vassel {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .february {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 50px;
+  }
+  .springs {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .special {
+    width: 90%;
+    height: 200px;
+  }
+  .grow_orchids {
+    width: 80%;
+    height: 150px;
+  }
+  .trees {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 30px;
+  }
+  .footer {
+    display: flex;
+    justify-content: center;
+    gap: 20px 70px;
+    flex-wrap: wrap;
+  }
+  .div1 {
+   flex-wrap: wrap;
+  } 
+  .footer {
+    display: flex;
+    justify-content: center;
+    gap: 20px 70px;
+    flex-wrap: wrap;
+  }
+  .div2 {
+    background-image: url("https://tinyurl.com/zukhazbx");
+    /* background-repeat: no-repeat; */
+/* /background-size: 350%; 
+     background-size: auto; 
+    /* gap:;  
+      padding:20px 100px;   
+    /* margin: 0 auto; 
+    justify-content: center;
+    /* margin-left: 10px; 
+    background-color: #ffffff;
+    border: 1px solid #333;
+    /* border-radius: 80px; 
+     /* padding: 100px; 
+     margin: 20px;  
+    /* width: 100%; Adjust the width as needed 
+     
+    border-radius: 5px;
+  }  
+  
+  
+  .nav ul {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}*/
 
 /*.div1 {
   background-image: url(https://tinyurl.com/zukhazbx);
