@@ -58,13 +58,12 @@
 }
 .card {
   display: flex;
-  /* margin-right: 20%; */
+ 
   gap: 25%;
   background-color: beige;
   border-radius: 8px;
   padding: 60px;
   margin: 20px;
-  /* white-space: nowrap; */
 }
 
 button {
